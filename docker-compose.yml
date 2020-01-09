@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  frontend:
+    build:
+      context: ./jalas-frontend/jalas-app
+    ports:
+      - "80:80"
+    depends_on:
+      - "backend"
+  
+  backend:
+    build: 
+      context: ./jalas-backend
+    ports:
+      - "8000:8000"
+    expose:
+      - "8000"
+ 
