@@ -1,0 +1,6 @@
+[submodule "Jalas-Frontend"]
+	path = Jalas-Frontend
+	url = https://github.com/gsoosk/Jalas-Frontend
+[submodule "Jalas-Backend"]
+	path = Jalas-Backend
+	url = https://github.com/gsoosk/Jalas-Backend
